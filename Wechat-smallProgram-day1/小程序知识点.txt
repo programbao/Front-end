@@ -1,0 +1,37 @@
+
+//在添加配置时一定不能随便添加注释，会出错的
+1、全局配置文件1---app.json文件：pages小程序所拥有的页面和路径、logs（日志）、哪个路径在最上方；启动的就显示谁先---window:navigationBarTitleText(导航栏标题文字内容)
+ 、navigationBarBackgroundColor(导航栏背景颜色) 、’navigationBarTextStyle(导航栏标题颜色，仅支持 black / white)、enablePullDownRefresh(是否开启全局的下拉刷新)、
+backgroundTextStyle(下拉 loading 的样式，仅支持 dark / light).
+
+2、全局配置文件2(tabbar)：tabBar.list 需至少包含 2 项--tabbar:同层级添加，list属性在页面添加下面显示的图标名称（对应页面路径）、pagePath（配置路径）、text（tabBar上的标题名字）、iconPath（图标路径）、selectedIconPath（当对应list激活时切换对应的路径======babBar同层级的样式设置
+color(设置字体样式)、selectedColor（tab 上的文字选中时的颜色）、borderStyle（tabbar上边框的颜色）
+
+3、页面配置（page.json）--- 直接设置样式json文件中设置样式
+
+4、（index3）数据绑定,(wxml)标签文件-块级标签,含义的div一样,(js)逻辑文件：
+1、如果你想在页面上展示某些变量，这些变量要提前定义在js中的data（页面的初始数据）对象中，使用方法两个{}即（{{}}），中间再加上变量；不能改是微信固定的写法。
+2、变量还可以通过属性来展示
+3、复选框checkbox:checked属性要想默认不选中不能checked="false"这样设置，要checked={{false}}这样设置；注意：要想在属性里面体现 布尔类型 一定要加上{{}}
+
+
+
+5、（index4）运算：三元运算、算数运算、逻辑判断
+
+6、（index5）列表渲染
+
+7、(index6)wxss尺寸单位:1rpx=1px,根据手机的不同显示的尺寸不同iPhone5是1rpx=0.5px
+
+8、(index8)样式文件导入：用@import "路径"
+
+9、（index9）view和text标签；view:hover-class按下时的样式 text文本中selectable按下选中，decode是否解码
+
+10、（index10）image图片组件：mode属性
+
+11、（index11）swiper轮播图组件，必须放一个swiper-item（轮播项的标签名）组件；属性autoplay是否自动轮播，属性circular无缝衔接，interval自动切换的间隔
+
+12、导航组件navigator：url跳转的页面，open-type
+
+13、视频组件video：duration播放多少时长
+
+14、自定义组件：一个自定义组件是由json/wxml/wxss/js四个文件组成

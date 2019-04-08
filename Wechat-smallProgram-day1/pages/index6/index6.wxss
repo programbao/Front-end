@@ -1,0 +1,18 @@
+/*.box{*/
+	/*750px 宽度和高度 100px
+	/*375 宽度和高度 50px*/
+/*	width: 50px;
+	height: 50px;
+	background-color: aqua;
+}*/
+
+.box{
+	/*750px 宽度和高度 100px*/
+	/*375 宽度和高度 50px*/
+
+	/*1rpx=1px*/
+	width: 100rpx;
+	height:100rpx;
+	font-size: 100rpx;
+	background-color: aqua;
+}

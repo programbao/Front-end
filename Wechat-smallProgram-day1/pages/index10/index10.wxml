@@ -1,0 +1,10 @@
+<view>
+	<!-- image标签是web中的img标签和背景图片结合体 -->
+  <!-- aspectFit -->
+	<!-- <image src="../../images/img.jpg" mode="aspectFit"></image> -->
+  <!-- <image src="../../images/img.jpg" mode="scaleToFill"></image> -->
+  <!-- <image src="../../images/img.jpg" mode="aspectFill"></image>  -->
+  <!-- <image src="../../images/img.jpg" mode="widthFix"></image> -->
+  <!-- <image src="../../images/img.jpg" mode="top"></image> -->
+  <image src="../../images/img.jpg" mode="center"></image>
+</view>

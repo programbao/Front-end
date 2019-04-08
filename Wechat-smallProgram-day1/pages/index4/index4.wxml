@@ -1,0 +1,22 @@
+<view>
+<!-- 三元运算符 -->
+  <checkbox checked='{{isChecked?true:false}}'></checkbox>
+</view>
+<!-- 算数运算符 -->
+<view>
+  {{1+10}}
+</view>
+<view>
+  {{num1+num2}}
+</view>
+<view>
+<!-- 字符串拼接 -->
+  {{str1+str2}}
+</view>
+
+<!-- 逻辑判断 -->
+<view>
+  <checkbox checked="{{num3>3}}"></checkbox>
+</view>
+
+<!-- 花括号和引号之间不能有空格 -->
