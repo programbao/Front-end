@@ -1,0 +1,20 @@
+<view class='main'>
+    <!-- 积分 -->
+    <view class="integral">
+        <!-- 积分数 -->
+        <view class="integral_ab">
+            <text class="fz1">2430</text>
+            <text class="fz2">积分</text>
+        </view>
+        <!-- 名字 -->
+        <view class="integral_bl">
+            <text class="fz3">臻享金</text>
+            <text class="fz4">YujunZhu</text>
+        </view>
+    </view>
+
+    <!-- 店面消费 -->
+    <view class="consume">
+        
+    </view>
+</view>
