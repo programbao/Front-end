@@ -1,0 +1,90 @@
+.food{
+    position: relative;
+    display: flex;
+    width: 96%;
+    height: 144rpx;
+    margin: 0 auto 30rpx;
+    background-color: #fff;
+    align-items: center;
+}
+.food_img{
+    display: flex;
+    width: 96rpx;
+    height: 96rpx;
+    margin-left: 20rpx;
+}
+.food_img image{
+    width: 100%;
+    height: 100%;
+}
+.arrow {
+    position: absolute;
+    display: flex;
+    right: 60rpx;
+    width: 15rpx;
+    height: 20rpx;
+}
+.product{
+    font-size: 36rpx;
+    color: #793800;
+    margin-left: 10rpx;
+}
+.arrow image{
+    width: 100%;
+    height: 100%;
+}
+/* 空白区 */
+.sp{
+    width: 100%;
+    height: 144rpx;
+}
+/* 已点 */
+.money{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 164rpx;
+    background-color: #fff;
+}
+.money view{
+    display: flex;
+    align-items: center;
+}
+.money_num{
+    font-size: 96rpx;
+    color: #793800;
+    font-weight: 700;
+    margin-left: 10rpx;
+}
+.money_po{
+    position: absolute;
+    top: 35%;
+    left: 145rpx;
+    font-size: 28rpx;
+    color: #793800;
+}
+.money_mn{
+    position: absolute;
+    top: 55%;
+    left: 145rpx;
+    font-size: 28rpx;
+    color: #E03D3D;
+    font-weight: 700;
+}
+.money_cf{
+    position: absolute;
+    display: flex;
+    bottom: 50%;
+    right: 40rpx;
+    margin-bottom: -21rpx;
+    width: 144rpx;
+    height: 42rpx;
+    /* text-align: center; */
+    background-color: rgb(6, 219, 113);
+    border-radius: 10rpx;
+    color: #fff;
+    font-size: 32rpx;
+    white-space: nowrap;
+    justify-content: center;
+}

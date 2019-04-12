@@ -1,0 +1,61 @@
+<view class='main'>
+    <!-- 积分 -->
+    <view class="integral">
+        <!-- 积分数 -->
+        <view class="integral_ab">
+            <text class="fz1">2430</text>
+            <text class="fz2">积分</text>
+        </view>
+        <!-- 名字 -->
+        <view class="integral_bl">
+            <text class="fz3">臻享金</text>
+            <text class="fz4">YujunZhu</text>
+        </view>
+    </view>
+
+    <!-- 店面消费 -->
+    <view class="consume">
+        <!-- 店面名字 -->
+        <view class="consume_name">
+            <view class="consume_name_l">苏州湖东店</view>
+            <view class="consume_name_r">
+                <text class="r1">B 23</text>
+                <text class="r2">下单时间 2017.07.28 20:06</text>
+            </view>
+        </view>
+        <!-- 菜品数量 -->
+        <view class="consume_num">
+            <view class="consume_num_l">菜品数量</view>
+            <view class="consume_num_r">12</view>
+        </view>
+        <!-- 空行 -->
+        <view class="consume_sp">
+            <view class="consume_sp_c">→</view>
+        </view>
+        <!-- 共计金额 -->
+        <view class="consume_mn">
+            <view class="consume_mn_l">共计金额</view>
+            <view class="consume_mn_r">¥ 489.00</view>
+        </view>
+        
+    </view>
+    <!-- 手机买单 -->
+    <view class="check">手机买单</view>
+
+    <!-- 广告 -->
+    <view class="ad">
+        <image mode="widthFix" src="../../images/ad.jpg" />
+        <text class="ad1">全鲜捞面, 现已开售</text>
+        <view class="ad_mn">
+            <text class="ad2">¥18</text>
+            <text class="ad3">¥29</text>
+        </view>
+        
+    </view>
+    
+    <!-- 新品 -->
+    <view class="new_pro">
+        <view class="new_t1">新品试尝招募</view>
+        <view class="new_t2">送精品肥牛</view>
+    </view>
+</view>
