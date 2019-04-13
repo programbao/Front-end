@@ -1,0 +1,34 @@
+<view class="main">
+    <!-- 循环食物类别 -->
+    <view bindtap="open" data-id="{{index}}" class="food" wx:for="{{7}}" wx:key="{{index}}"> 
+        <!-- 食物图片 -->
+        <view class="food_img">
+            <image mode="widthFix" src="../../images/pic{{item+1}}.png" />
+        </view>
+        <!-- 食物名称 -->
+        <view class="product">
+            {{products[item]}}
+        </view>
+        <!-- 类品箭头 -->
+        <view  class="arrow">
+            <image mode="widthFix"  src="{{index===morelist?arr2:arr1}}" />
+        </view>
+        <!-- 展开食品 -->
+        <view  class="{{index===morelist?classname2:classname1}}">
+            <view class="op_fd_p" wx:for="{{4}}" wx:key="{{index}}">
+                <view class="op_fd_k1"></view>
+                <view class="op_fd_k2"></view>
+                <view class="no_float"></view>
+            </view>
+        </view>
+    </view>
+    <!-- 空白区 -->
+    <view class="sp"></view>
+    <!-- 已点 -->
+    <view class="money">
+        <view class="money_num">12</view>
+        <view class="money_po">已点</view>
+        <view class="money_mn">¥ 468.00</view>
+        <view class="money_cf">确认下单</view>
+    </view>
+</view>

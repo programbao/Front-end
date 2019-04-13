@@ -1,0 +1,131 @@
+.food{
+    position: relative;
+    display: flex;
+    width: 96%;
+    min-height: 144rpx;
+    margin: 0 auto 30rpx;
+    background-color: #fff;
+    /* align-items: center; */
+}
+.food_img{
+    position: absolute;
+    display: flex;
+    top: 28rpx;
+    width: 96rpx;
+    height: 96rpx;
+    margin-left: 20rpx;
+   
+}
+.food_img image{
+    width: 100%;
+    height: 100%;
+}
+.arrow {
+    position: absolute;
+    display: flex;
+    right: 60rpx;
+    width: 15rpx;
+    height: 20rpx;
+}
+.product{
+    position: absolute;
+    top: 50rpx;
+    left: 115rpx;
+    font-size: 36rpx;
+    color: #793800;
+    margin-left: 10rpx;
+}
+/* 箭头 */
+.arrow{
+    position: absolute;
+    top: 65rpx;
+    right: 50rpx;
+}
+.arrow image{
+    width: 100%;
+    height: 100%;
+}
+/* 展开食品 */
+.op_fd{
+    display: none;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    margin-top:140rpx;
+}
+.op_fd1{
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    margin-top:140rpx;
+}
+
+.op_fd_p{
+    float: left;
+    width: 43%;
+    height: 406rpx;
+    margin: 20rpx;
+    border: 1px solid #ccc;
+    border-radius: 20rpx;
+    margin-left:27rpx;
+
+}
+.no_float{
+    clear: both;
+}
+/* 空白区 */
+.sp{
+    width: 100%;
+    height: 144rpx;
+}
+/* 已点 */
+.money{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 164rpx;
+    background-color: #fff;
+}
+.money view{
+    display: flex;
+    align-items: center;
+}
+.money_num{
+    font-size: 96rpx;
+    color: #793800;
+    font-weight: 700;
+    margin-left: 10rpx;
+}
+.money_po{
+    position: absolute;
+    top: 35%;
+    left: 145rpx;
+    font-size: 28rpx;
+    color: #793800;
+}
+.money_mn{
+    position: absolute;
+    top: 55%;
+    left: 145rpx;
+    font-size: 28rpx;
+    color: #E03D3D;
+    font-weight: 700;
+}
+.money_cf{
+    position: absolute;
+    display: flex;
+    bottom: 50%;
+    right: 40rpx;
+    margin-bottom: -21rpx;
+    width: 144rpx;
+    height: 42rpx;
+    /* text-align: center; */
+    background-color: rgb(6, 219, 113);
+    border-radius: 10rpx;
+    color: #fff;
+    font-size: 32rpx;
+    white-space: nowrap;
+    justify-content: center;
+}

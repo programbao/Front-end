@@ -1,0 +1,197 @@
+
+
+/* 积分 */
+.integral{
+  width: 94%;
+  height: 354rpx;
+  margin: 0rpx auto;
+  padding: 5rpx;
+  border-radius: 8px;
+  background-color: bisque;
+  box-shadow: 0px 12rpx 12rpx rgba(0,0,0,0.04);
+}
+/* 积分数 */
+.integral_ab{
+  position: relative;
+  width: 100%;
+  height: 60%;
+  text-align: right;
+  color:#8B572A;
+}
+.fz1{
+  font-size: 144rpx;
+  font-weight: 700;
+}
+.fz2{
+  position: absolute;
+  bottom: 0rpx;
+  right: 0;
+  font-size: 28rpx;
+  display: flex;
+  justify-content: space-around;
+
+}
+/* 用户名 */
+.integral_bl{
+  position: relative;
+  width: 100%;
+  height: 40%;
+  text-align: left;
+  color:#8B572A;
+  font-size: 28rpx;
+}
+
+.fz4{
+  position: absolute;
+  bottom: 60rpx;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+}
+
+/* 店面消费 */
+.consume{
+  width: 83%;
+  height: 414rpx;
+  margin: 90rpx auto 40rpx;
+  padding: 0 25rpx;
+  background: linear-gradient(to bottom right, #FFCEA4, #ffffff);
+}
+.consume_name,.consume_num,.consume_mn{
+  width: 100%;
+  height: 26%;
+}
+.consume_sp{
+  width: 100%;
+  height: 21%;
+}
+.consume_name,.consume_num,.consume_sp{
+  border-bottom: 1px solid #ccc;
+}
+
+/* 店面名字 */
+.consume_name{
+  display: flex;
+}
+.consume_name_l{
+  display: flex;
+  width: 40%;
+  height: 100%;
+  align-items: center;
+  font-size: 28rpx;
+}
+.consume_name_r{
+  position: relative;
+  width: 60%;
+  height: 100%;
+  text-align: right;
+}
+.r1{
+  position: absolute;
+  font-size: 28rpx;
+  font-weight: 700;
+  top: 20%;
+  word-wrap: break-word;
+  white-space: nowrap;
+  right: 30rpx;
+}
+.r2{
+  display:flex;
+  position: absolute;
+  font-size: 20rpx;
+  bottom: 20%;
+  right: 0;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  word-wrap: break-word; 
+}
+/* 菜品数量 */
+.consume_num,.consume_mn{
+  display: flex;
+  align-items: center;
+  /* font-size: 28rpx; */
+}
+.consume_num_l,.consume_mn_l{
+  width: 50%;
+  font-size: 24rpx;
+}
+.consume_num_r,.consume_mn_r{
+  width: 50%;
+  text-align: right;
+  font-weight: 700;
+  font-size: 48rpx;
+}
+/* 空行 */
+.consume_sp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 手机买单 */
+.check{
+  display: flex;
+  color: #fff;
+  font-size: 40rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 广告 */
+.ad{
+  position: relative;
+  width: 94%;
+  height: 300rpx;
+  padding: 5rpx;
+  margin: 50rpx auto;
+  border-radius: 8rpx;
+  background: #F8d7a0;
+}
+.ad image{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+.ad1{
+  position: absolute;
+  color: #884D00;
+  font-size: 36rpx;
+  top: 35%;
+}
+.ad_mn{
+  position: absolute;
+  bottom: 30%;
+  font-weight: 700;
+}
+.ad2{
+  font-size: 40rpx;
+  color: #E03D3D;
+}
+.ad3{
+  font-size: 28rpx;
+  color: #A0A0A0;
+}
+
+/* 新品 */
+.new_pro{
+  position: relative;
+  width: 94%;
+  height: 300rpx;
+  padding: 5rpx;
+  margin: 50rpx auto;
+  border-radius: 8rpx;
+  background-color: #fff;
+}
+.new_t1{
+  position: absolute;
+  top: 20%;
+  font-size: 36rpx;
+  color: #F1E9E7;
+  left: 5%;
+}
+.new_t2{
+  position: absolute;
+  top: 35%;
+  left: 5%;
+}

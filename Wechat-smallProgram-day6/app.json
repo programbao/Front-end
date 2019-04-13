@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/order/order",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#E03D3D",
+    "navigationBarTitleText": "海底捞火锅",
+    "navigationBarTextStyle":"white"
+  }
+}
