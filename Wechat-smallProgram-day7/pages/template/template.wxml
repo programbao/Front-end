@@ -1,0 +1,19 @@
+<template name="listTmp">
+	<view class="mian">
+		<view class="title">
+			<image src='{{avatar}}'></image>
+			<text>{{date}}</text>
+			
+		</view>
+		<view class="head">{{title}}</view>
+		<image class="fix_img" src='{{detail_img}}'></image>
+		<text class="mainTxt"> {{detail_content}}
+		</text>	
+		<view class="de_tx">
+			<image src='/images/icon/star.png'></image>
+			<text> {{love_count}} </text>		
+			<image src='/images/icon/view.png'></image>
+			<text> {{attention_count}} </text>		
+		</view>	
+	</view>
+</template>

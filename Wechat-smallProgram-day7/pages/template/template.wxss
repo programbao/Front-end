@@ -1,0 +1,33 @@
+.main{
+	display: flex;
+	flex-direction: column;
+}
+.title{
+	width: 100%;
+	font-size: 28rpx;
+  padding: 10rpx;
+}
+.title image{
+	width: 60rpx;
+	height: 60rpx;
+	vertical-align: middle;
+}
+.head{
+  font-weight: bold;
+  padding: 10rpx;
+}
+.fix_img{
+  width: 100%;
+  height: 450rpx;
+}
+.mainTxt{
+  font-size: 24rpx;
+  text-indent: 32rpx;
+  /* margin-top: 10rpx; */
+}
+.de_tx image{
+  width: 28rpx;
+  height: 28rpx;
+  vertical-align: middle;
+  margin-left: 20rpx;
+}

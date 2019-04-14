@@ -1,0 +1,19 @@
+<view class="main">
+	<image class='de_img' src="{{listArr.detail_img}}"></image>
+	<view class='avatar'>
+		<image src='{{listArr.avatar}}'></image>
+		<text>{{listArr.author}} 发布于 </text>
+    <text>{{listArr.date}}</text>
+	</view>
+	<view class='title'>{{listArr.title}}</view>
+	<view class='cl_sh'>
+		<view class='cl_sh_a'>
+      <image catchtap='collectClilck' src='{{isCollected?col2:col1}}'></image>
+      <image src='/images/icon/share.png'></image></view>
+		<view class="link"></view>
+	</view>
+	<button class='btn'>转发此文章</button>
+	<text class='content'>
+	{{listArr.detail_content}}
+	</text>		
+</view>

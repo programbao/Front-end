@@ -1,0 +1,14 @@
+<import src="/pages/template/template.wxml" />
+<view>
+  <swiper indicator-dots autoplay circular	indicator-color="#00B26a"	>
+    <swiper-item  class="scollpic" wx:for="{{4}}" wx:key="{{index}}">
+      <image src='/images/detail/carousel/0{{index+1}}.jpg'></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for="{{listArr}}" wx:key="{{index}}">
+    <view data-index='{{index}}' catchtap='handleClick'>
+      <template is="listTmp" data="{{...item}}" />
+    </view>
+  </block>
+
+</view>

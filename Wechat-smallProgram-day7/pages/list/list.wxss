@@ -1,0 +1,9 @@
+@import "/pages/template/template.wxss";
+.scollpic{
+  width: 100%;
+  height: 400rpx;
+}
+.scollpic image{
+  width: 100%;
+  height: 400rpx;
+}
