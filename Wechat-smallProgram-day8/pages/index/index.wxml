@@ -1,0 +1,12 @@
+<view class='main'>
+  <!-- 内容列表 -->
+  <view class='list'>
+    <view>list1</view>
+    <view>list2</view>
+    <view>list3</view>
+    <view>list4</view>
+  </view>
+  <view class='content'  bindtouchstart="tc_start"  bind:touchmove="conMove" bindtouchend='tc_end'  style='{{transform}}' >
+    <view class='more' catchtap='moreClick'>点击移动</view>
+  </view>
+</view>
